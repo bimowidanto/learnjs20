@@ -75,11 +75,32 @@ if (BMIAndy > BMIHery) {
 - OR (||) = > true if ONE is true
 - NOT (!) => inverts true/false value
 */
+let namaDepan2 = 'john';
+let umur1 = 29;
 
+if (umur1 < 13) {
+    console.log(namaDepan2 + ' adalah anak-anak.'); 
+} else if (umur1 >= 13 && umur1 < 20) {
+    console.log(namaDepan2 + ' adalah remaja.');
+} else if (umur1 >= 28 && umur1 < 30) {
+    console.log(namaDepan2 + ' adalah dewasa.');
+} else {
+    console.log(namaDepan2 + ' adalah orang tua.');
+}
 
+/*
+Operator ternary and switch statement
+*/
+let namaDepan3 = 'joni';
+let age1 = 19;
 
+//ternary operator
+age >= 18 
+? console.log(namaDepan3 + ' minuman dingin.')
+: console.log(namaDepan3 + ' minuman panas.');
 
-
+let minuman = age >= 18 ? 'dingin' : 'panas';
+console.log(minuman);
 
 
 
